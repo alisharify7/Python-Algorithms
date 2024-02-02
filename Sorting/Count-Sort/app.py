@@ -16,7 +16,7 @@ k >> p
 
 
 def pythonic_count_sort(base_arr:list) -> dict:
-    """Count sorting algorithm , pythonic way"""
+    """Count sorting algorithm , pythonic way using dictionary"""
     counter = {}
     for each in base_arr:
         if each in counter:
