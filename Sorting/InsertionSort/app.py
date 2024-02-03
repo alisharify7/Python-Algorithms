@@ -1,30 +1,24 @@
-import os
-import random
+
 
 """
 
 """
 
 
-def insertion_sort(base_arr: list) -> bool:
+def insertion_sort(base_arr: list):
     for k in range(1, len(base_arr)):
         item = base_arr[k]
         i = k
-        print(i)
-        while i > 0 and base_arr[i-1] > item:
+        while i > 0 and item < base_arr[i - 1] :
             base_arr[i] = base_arr[i-1]
             i -= 1
-            print(i, end=" ")
-        base_arr[i] = item
-        print()
-        # print(base_arr)
-
+            base_arr[i] = item
 
 def main():
     # random.randint(1, 1)
-    array = [each for each in range(10, -1, -1)]
-    print(array)
+    array = [10,9,8,7,6,5,4,3,2,1]
     insertion_sort(array)
+    print(array)
 
 
 if __name__ ==  "__main__":
