@@ -19,6 +19,6 @@ read more in <a href="https://en.wikipedia.org/wiki/Algorithm">here</a>
 - <a href="./Sorting/CountSort">Count</a>
 
 ### Searching
-- <a href="./Searching/BinarySort">Binary</a>
-- <a href="./Searching/LinearSort">Linear</a>
+- <a href="./Searching/BinarySearch">Binary</a>
+- <a href="./Searching/LinearSearch">Linear</a>
 
