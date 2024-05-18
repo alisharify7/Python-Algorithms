@@ -12,5 +12,7 @@ Insertion sort is a simple sorting algorithm that works by building a sorted arr
 
 
 
+<img src="./media/Insertion_sort.gif">
+<img src="./media/Insertion-sort-example-300px.gif">
 <img src="./media/Insertion-Sort.webp">
 <img src="./media/insertionsort.png">

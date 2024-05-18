@@ -12,6 +12,7 @@ def InsertionSort1(base_arr: list):
             i -= 1
             base_arr[i] = item
 
+
 def InsertionSort2(array:list) -> None:
     length = len(array)
     for i in range(1, length):
